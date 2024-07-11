@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+#nav ul{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: absolute;
+    right: 40px;
+}
+#nav ul li{
+  list-style: none;
+  font-size: 1.8rem;
+}
+#nav ul li a{
+    display: block;
+    margin: 40px 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#nav .logo{
+    padding: 20px 30px 30px 40px;
+}
+#nav .logo img{
+    height: 70px;
+}
+
+/* //navbar is completed */
+/* Section */
+#main{
+    display: flex;
+}
+/* left section and right */
+#left{
+    width: 45%;
+    height: 480px;
+    padding: 0px 90px 2px 90px ;
+    background-color: rgb(238, 238, 238);
+   
+}
+#right{
+    width: 55%;
+    height: 480px;
+}
+#right img{
+   height: 100%;
+   width:100%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    padding: 95px 35px 40px;
+}
+.h1_heading{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 2.8rem;
+   margin: 20px 0px 25px;
+   font-weight: 900;
+}
+.p1{
+    margin: 0px 0px 25px;
+}
+.btn1{
+    width:140px;
+    height:40px;
+    border: 3px solid black;
+    margin: 5px 0px 0px 0px;
+}
+/* first page completed here */
+#second{
+     display: flex;
+     padding: 25px 0px;
+}
+#second input{
+    position: absolute;
+    right: 180px;
+    border-radius: 7px ;
+    padding: 5px 80px 5px 0px ;
+}
+#second h4{
+    margin: 0px 0px 0px 120px;
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* About us starts from here */
+#about_us{
+    display: flex;
+}
+#about_us .box{
+    display: flex;
+}
+.box img{
+    height: 400px;
+    width: 100%;
+    padding: 0px 50px 0px 30px;
+}
+.box{
+    margin: 0px 0px 0px 30px;
+}
+.box h1{
+    display: flex;
+    color: rgb(6, 199, 6);
+    font-weight: 700;
+    font-size: 2.6rem;
+}
+.text1 p{
+     margin: 0px 100px 0px 0px;
+}
+.btn2{
+    margin: 30px 0px;
+    width:140px;
+    height:40px;
+    border: 2px solid black;
+    background-color: white7
+}
+
+/* //Our projects starts from here */
+#projects{
+    display: flex;
+    justify-content: center;
+    margin:65px 0px 0px 0px ;
+}
+#img3{
+    margin: 70px 40px 0px 0px ;
+    height: 580px;
+}
+.box-middle{
+    margin: 70px 40px 0px 0px;
+}
+.box-middle h1{
+    color: rgb(6, 199, 6);
+    font-weight: 700;
+    font-size: 2.6rem;
+    margin: 15px 0px 15px 0px;
+}
+
+/* How we work starts from here */
+#work_culture {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   margin: 120px 0px 0px 0px;
+}
+#work_culture .boxes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 65px 10px 0px 65px;
+} 
+#work_culture .boxes .box1{
+    margin: 0px 50px 0px 0px;
+}
+#work_culture .boxes .box2{
+    margin: 0px 50px 0px 0px;
+}
+#work_culture .boxes .box3{
+    margin: 35px 50px 0px 0px;
+}
+#product_photos{
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+}
+#product_photos .photos1{
+     display: flex;
+    justify-content: center;
+}
+#product_photos .photos2{
+    display: flex;
+    justify-content: center;
+}
